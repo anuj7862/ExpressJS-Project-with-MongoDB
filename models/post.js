@@ -1,14 +1,14 @@
 var mongoose = require('mongoose');
+const { username, password } = require('../config');
 
-mongoose.connect("mongodb+srv://anujtiwarimnnit:12344321@cluster1.vqkbc8y.mongodb.net/userdb?retryWrites=true&w=majority")
-.then( () =>
-    {console.log("db is connected")
-}).catch (() => {
-    console.log("db not connected");
-  })
-;
+// mongoose.connect(`mongodb+srv://${username}:${password}@cluster1.vqkbc8y.mongodb.net/userdb?retryWrites=true&w=majority`)
+// .then( () =>
+//     {console.log("db is connected")
+// }).catch (() => {
+//     console.log("db not connected");
+// });
 
-// mongoose.connect("mongodb://localhost:27017/mongodb2").then(() => console.log("db connected"))
+// mongoose.connect("mongodb://localhost:27017/mongodb").then(() => console.log("db connected"))
 // .catch(() => console.log("db not connected"));
 
 const schema = mongoose.Schema({

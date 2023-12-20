@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var userModel = require('./users');
-var postModel = require('./post');
+var userModel = require('../models/users');
+var postModel = require('../models/post');
 const passport = require('passport');
 
 const localStrategy = require("passport-local");
@@ -110,7 +110,7 @@ router.post('/submit', async (req, res) => {
   });
   user.posts.push(post._id);
   await user.save();
-  req.flash("success", [post ,"userCrated"]);
+  req.flash("success", "Post Crated");
   res.redirect('/home');
 })
 
