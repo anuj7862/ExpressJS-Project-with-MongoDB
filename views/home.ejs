@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Message</title>
+    <link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+<body>
+     <% if (flag.success) { %>
+        <div style="color: green;">
+          <%= flag.success %>
+        </div>
+        <!-- <p>This is the home page.</p> -->
+      <% } %>
+    <!-- <% if(!flag.success) { %>
+        <div style="color: red;">
+        Failed to login
+        </div>  
+    <% } %> --> <!-- this code is for flash messages -->
+    
+    <div class="header">
+      <h1> This is Home Page </h1>
+      <a href="/logout"> Logout</a>
+    </div>
+    <div class="boxContainer">
+      <div class="boxContent">
+        <h3> Create a Post : </h3>
+        <a href="/createpost" class="homeBtn"> Create </a>
+      </div>
+
+      <div class="boxContent">
+        <h3> Find Users: </h3>
+        <form action="/findUser" method="post">
+          <input placeholder="username" type="text" name="username">
+          <button class="homeBtn"> Find </button>
+        </form>
+      </div>
+
+      <div class="boxContent">
+        <h3> Delete a User : </h3>
+        <form action="/deleteUser" method="post">
+          <input placeholder="username" type="text" name="username">
+          <button class="homeBtn"> Delete </button>
+        </form>
+      </div>
+
+      <div class="boxContent">
+        <h3> Find Post by username : </h3>
+        <form action="/findPostByUser" method="post">
+          <input placeholder="username" type="text"  name="username">
+          <button class="homeBtn"> Find </button>
+        </form>
+      </div>
+    </div>
+
+</body>
+</html>

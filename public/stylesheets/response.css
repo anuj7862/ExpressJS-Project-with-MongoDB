@@ -1,0 +1,18 @@
+.homeBtn {
+    border-radius: 40px;
+    background-color: bisque;
+    padding: .3rem 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.homeBtn:hover {
+    background-color: rgb(87, 85, 85);
+    color: white;
+    border: 1px solid white;
+}
+
+a {
+    margin: 10rem 1rem;
+}

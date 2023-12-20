@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/response.css">
+</head>
+<body>
+    <h1>Response</h1>
+    <!-- <div class="response">
+        <% if(Array.isArray(response)) { %>
+            <p> [ </p>
+            <% response.forEach((obj) => { %>
+                <p> { </p>
+                <% for (key in obj){ %>
+                    <p>
+                        <%= `${key} : ${obj[key]}` %>
+                    </p>
+                <% } %>
+                <p> } </p>
+            <% }) %>
+            <p> ] </p>
+        <% } else { %>
+            <p> { </p>
+                <% for (key in response ){ %>
+                    <p>
+                        <%= `${key} : ${response[key]}` %>
+                    </p>
+                <% } %>
+                <p> } </p>
+        <% } %>
+    </div> -->
+    <p>
+        <%= response%>
+    </p>
+    <div>
+    <a href="/home" class="homeBtn">Home </a>
+</div>
+</body>
+</html>

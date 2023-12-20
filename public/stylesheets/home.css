@@ -1,0 +1,86 @@
+body {
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+
+.boxContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.boxContent {
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    margin: .5rem;
+}
+
+.boxContent a {
+    border-radius: 40px;
+    background-color: bisque;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.boxContent a:hover {
+    background-color: rgb(87, 85, 85);
+    color: white;
+    border: 1px solid white;
+}
+
+.boxContent form {
+    padding: .5rem;
+}
+
+form input {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.homeBtn {
+    border-radius: 40px;
+    background-color: bisque;
+    padding: .3rem 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.homeBtn:hover {
+    background-color: rgb(87, 85, 85);
+    color: white;
+    border: 1px solid white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    align-items: center;
+    height: 20vh;
+}
+
+.header a {
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 0rem 1rem;
+    padding-top: .5rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    height: 2rem;
+}
+
+.header a:hover {
+    background-color: rgb(87, 85, 85);
+    color: white;
+    border: 1px solid white;
+}
+
