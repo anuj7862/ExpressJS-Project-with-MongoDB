@@ -16,6 +16,12 @@ This project showcases the implementation of a web application using ExpressJS, 
 
 - **Data Association using MongoDB Models**: Establishes data association between two MongoDB models - `User` and `Post`.
 
+
+
+<img width="500" alt="Screenshot 2023-12-21 at 10 43 08 AM" src="https://github.com/anuj7862/ExpressJS-Project-with-MongoDB/assets/66530079/258a44da-7e52-4fae-9c05-96002bf2a6f3">
+<img width="500" alt="Screenshot 2023-12-21 at 10 43 29 AM" src="https://github.com/anuj7862/ExpressJS-Project-with-MongoDB/assets/66530079/beb48a39-162f-4c33-ac6f-354337a013ef">
+
+
 ## Project Structure
 
 The project is organized into the following structure:
