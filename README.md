@@ -14,7 +14,7 @@ This project showcases the implementation of a web application using ExpressJS, 
 
 - **Authentication and Authorization**: Demonstrates user authentication using Passport.js, ensuring secure access to protected routes.
 
-- **Data Association using MongoDB Models**: Establishes data association between two MongoDB models - `User` and `Post`, showcasing a relational structure.
+- **Data Association using MongoDB Models**: Establishes data association between two MongoDB models - `User` and `Post`.
 
 ## Project Structure
 
@@ -37,7 +37,7 @@ The project is organized into the following structure:
 2. **Install Dependencies:**
 
    ```bash
-   cd express-mongodb-project
+   cd ExpressJS-Project-with-MongoDB
    npm install
 
 3. **Configuration**
